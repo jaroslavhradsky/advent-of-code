@@ -3,6 +3,7 @@ package support;
 import java.util.ArrayList;
 
 public class Converter {
+    //Converts nanotime to human readable form
     public static String time(long nanotime){
         if (nanotime < 1000000) return String.format("%d ns", nanotime);
         if (nanotime < 1000000000) return String.format("%d ms", Math.round(nanotime/1000000.0));

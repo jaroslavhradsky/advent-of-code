@@ -63,7 +63,6 @@ import java.util.ArrayList;
 import java.util.TreeSet;
 
 public class Day01 {
-
     public static void main(String[] args){
         InputLoader il = new InputLoader("data/2018/day01.txt");
         ArrayList<Integer> changes = il.getIntList();
